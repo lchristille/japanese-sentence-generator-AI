@@ -12,8 +12,8 @@ from tools.handoff_tools import transfer_to_chatbot
 
 SENTENCE_EXPERT_SYSINT = """
     You are a Sentence Expert.
-    To generate sentences, you can call generate_sentences
-    After the generation, you should transfer the conversation to the chatbot.
+    You must call the generate_sentences tool to generate sentences as soon as the conversation starts.
+    After the generation, you should transfer the conversation back to the chatbot.
     \n\n
     If any of the tools are unavailable, you can break the fourth wall and tell the user that 
     they have not implemented them yet and should keep reading to do so.

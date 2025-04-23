@@ -26,7 +26,7 @@ Linux and MacOS will refuse to install packages with pip without an python envir
 
 Install the required Python packages:
 ```bash
-pip install -e .
+pip install -r requirements.txt
 ```
 
 ### 2. Configure Environment
@@ -41,3 +41,13 @@ You will be the sole responsible for economic charges on your Google account.
 ```shell
 python run.py
 ```
+
+Example conversation (only human parts)
+- What tenses do you support?
+- Can you generate a sentence with the verb 食べる at the imperative tense?
+- Can you add verbs 食べる、見る and 写す?
+- Can you add verbs 走る and 今日?
+- What there is my notebook?
+- add Request, volitional, past negative polite and conditional
+- add non past tense
+- generate sentences
